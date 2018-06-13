@@ -17,11 +17,13 @@ h1 {
 .arrow {
 display: inline-block;
 float: right;
-width: 5%;
+width: 10%;
+border: 1px solid #000000;
+background-color: #d3d3d3;
 }
 .content {
 display: inline-block;
-width: 95%;
+width: 90%;
 border: 1px solid #000000;
 background-color: #d3d3d3;
 }
@@ -29,7 +31,7 @@ background-color: #d3d3d3;
   background-color: inherit;
   }
 nav {
-  margin: 0 auto;
+  margin: 0; auto;
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
